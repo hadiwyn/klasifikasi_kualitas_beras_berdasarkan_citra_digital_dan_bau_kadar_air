@@ -25,7 +25,7 @@ class deteksi_objek:
         """
         load yolov5 model
         """
-        model_path = "yolo5x_50.pt"
+        model_path = "final.pt"
         model = torch.hub.load(
             "ultralytics/yolov5", "custom", path=model_path, force_reload=True
         )
